@@ -1,0 +1,237 @@
+body{
+    background-color :white;
+    font-family:"Segoe UI";
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    top: 0px;
+    position: relative;
+    margin: 0 ;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 100px;  
+    font-size: 19px;
+    font-weight: 400px; 
+    position: fixed;
+    background-color: #000;
+}   
+a :hover{
+    color: #008AFF;
+    }
+    a.ex1:hover{
+         color: #008AFF;
+    }
+    button.B1:hover{
+         background-color: white;
+    } 
+    button.B6:hover{
+        background-color: white;
+        color: #048dff;
+   } 
+.logo{
+    width: 205px;
+    height: 54px;
+    margin-top: -30px;
+    margin-right: 600px;
+    float: right;
+}
+.B1{
+    width: 188px;
+    height: 46px;
+    background-color: #048dff;
+    border-radius: 33px;
+    border: 1px solid #707070;
+    font-size: 20px;
+    color: white;
+    
+    }
+    .B6{
+    margin-left: -1400px;
+    width: 188px;
+    height: 46px;
+    background-color: #048dff;
+    border-radius: 33px;
+    border: 1px solid #707070;
+    font-size: 20px;
+    color: white;
+    }
+    .H1{
+        width: 433px;
+        height: 53px;
+        color: #f0eeee;
+        font-size: 39px;
+        font-weight: 400;
+        padding-left: 600px;
+        text-align: center;
+        padding-top: 120px;
+    }
+    .heder{
+        flex-basis: 100%;
+          background-color: tomato;
+            height: 588px;
+            background-image: url(imag1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+       }
+       
+     .menu li a {
+            text-decoration: none;
+            color: white;
+            padding: 15px;
+       }
+       .P1{
+           background-color: blue;
+       }
+       .P2{
+           background-color: blue;
+       }
+       .button1,.button2 {
+        background-color: white; 
+        border: none;
+        color: black;
+        font-size: 16px;
+        margin: 2px 7px;
+        cursor: pointer;
+        -webkit-transition-duration: 0.33s; 
+        transition-duration: 0.22s;
+      }
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button1{ 
+border-radius: 50px 0px 0px 0px;
+background-color: #048dff;
+padding: 15px 32px;
+width: 49%;
+text-align: center;
+margin-top: -20px;
+}
+.button2{ 
+    border-radius: 50px 0px 0px 0px;
+    background-color: #B4BBC0;
+    padding: 15px 32px;
+     width: 49%;
+    text-align: center;
+    margin-top: -20px;
+}
+.div1{
+  float: left;
+    background-color: #048dff;
+    width: 30%;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 80px;
+}
+.div2{
+    float: left;
+    background-color: #048dff;
+    width: 30%;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 80px;
+}
+.div3{
+    float: left;
+    background-color: #048dff;
+    width: 30%;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 80px;
+    
+}
+.div4{
+    float: left;
+    background-color: #048dff;
+    width: 30%;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 80px;
+   
+}
+.div5{
+    float: left;
+    background-color: #048dff;
+    width: 30%;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 80px;
+    
+}
+.div6{
+    float: left;
+    background-color: #048dff;
+    width: 30%;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 80px;
+   
+}
+.div7{
+    float: left;
+    background-color: #048dff;
+    width: 30%;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 80px;
+    
+}
+.div8{
+    float: left;
+    background-color: #048dff;
+    width: 30%;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 80px;
+   
+}
+.face2{
+ background-color: #048dff;
+ width: 300px;
+ margin-left: 680px;
+ margin-top: 100px;
+ 
+}
+.footer-distributed{
+    background-color: #000;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 15px 50px;
+    margin-top: 100px;  
+    font-size: 14px;
+    color:#8f9296;
+
+}
+.copyright {
+color:#8f9296;
+font-size: 14px;
+font-weight: normal;
+margin: 0;
+padding-left: 200px;
+margin-left: 480px;
+margin-right: 500px;
+margin-top: -50px;
+
+}
+.footer-icons{
+margin-right: 10px;
+margin-left: 1000px;
+margin-top: -50px;
+text-align: right;
+}
+
+

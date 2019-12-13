@@ -1,0 +1,380 @@
+body{
+    background-color :white;
+    font-family:"Segoe UI";
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.menu{
+  top: 0px;
+  position: relative;
+  margin: 0 ;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  height: 100px;  
+  font-size: 19px;
+  font-weight: 400px; 
+  position: fixed;
+  background-color: #000;
+}     
+a:hover{
+  color: #008AFF;
+  }
+  a.ex1:hover{
+       color: #008AFF;
+  }
+  button.B1:hover{
+       background-color: white;
+       color: #000;
+  }
+  button.B3:hover{
+    background-color: white;
+    color: black;
+    }
+    button.B2:hover{
+         background-color: white;
+         color:  #008AFF;
+     } 
+.logo{
+    width: 205px;
+    height: 54px;
+    margin-top: -30px;
+    margin-right: 30px;
+}
+.B1{
+    width: 188px;
+    height: 46px;
+    background-color: #048dff;
+    border-radius: 33px;
+    border: 1px solid #707070;
+    font-size: 20px;
+    color: white;
+    }
+    
+    .B2{
+         width: 319px;
+         height: 66px;
+         border-radius: 33px;
+         border: 1px solid #707070;
+         background-color: #048dff; 
+         margin-top:30px; 
+         font-size: 20px;
+         color : white; 
+    }
+    .B3{
+    width: 212px;
+    height: 61px;
+    border-radius: 31px;
+    border: 2px solid #efecec;
+    background-color: transparent;
+    color: aliceblue;
+    font-size: 20px;
+    }
+    .P1{
+        width: 547px;
+        height: 34px;
+        color: #f0eeee;     
+        font-size: 20px;
+        font-weight: 200;
+        text-transform: uppercase;
+        padding-left: 150px;
+   }
+    .H1{
+        width: 433px;
+        height: 53px;
+        color: #f0eeee;
+        font-size: 39px;
+        font-weight: 400;
+        padding-left: 150px;
+        padding-top: 150px;
+
+        }
+    .heder{
+        flex-basis: 100%;
+          background-color: tomato;
+            height: 588px;
+            background-image: url(imag1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+       }
+       
+     .menu li a {
+            text-decoration: none;
+            color: white;
+            padding: 15px;
+       }
+       .container{
+      
+       }
+      
+       .calendar-base {
+      
+        width: 1200px;
+        height: 500px;
+        border-radius: 20px;
+        background-color:white;
+        position: relative;
+        z-index: -1;
+        color: black;
+      }
+      
+      .year {
+        color: black;
+        font-size: 30px;
+        float: right;
+        position: relative;
+        right: 75px;
+        top: 20px;
+        font-weight: bold;
+      }
+      
+      .triangle-left {
+      color: black;
+        width: 0;
+        height: 0;
+        border-top: 5px solid transparent;
+        border-right: 10px solid #E8E8E8;
+        border-bottom: 5px solid transparent;
+        float: right;
+        position: relative;
+        right: 90px;
+        top: 36px;
+      }
+      
+      .triangle-right {
+          color: black;
+        width: 0;
+        height: 0;
+        border-top: 5px solid transparent;
+        border-left: 10px solid #E8E8E8;
+        border-bottom: 5px solid transparent;
+        float: right;
+        position: relative;
+        left: 20px;
+        top: 36px;
+      }
+      .triangle-left:hover{
+        border-right: 10px solid#048dff;
+      }
+      .triangle-right:hover{
+        border-left: 10px solid#048dff;
+      }
+      
+      .month-color {
+        color: #048dff;
+      }
+      .month-hover{
+        color: gray
+        
+      }
+      
+      .months {
+        
+        color: black;
+        position: relative;
+        width: 100%;
+        left: 350px;
+        top: 90px;
+        word-spacing: 10px;
+      }
+      
+      .month-line {
+        border-color: #E8E8E8;
+        position: relative;
+        top: 85px;
+        width: 57%;
+        left: 178px;
+      }
+      .days { 
+     
+        margin-left: 280px;
+        color: black;
+        position: relative;
+        font-size: 18px;
+        left: 50px;
+        top: 80px;
+        word-spacing: 60px;
+        font-weight: 600;
+      }
+      .div1{
+        background-color: white;
+          margin-left:20px;
+          margin-top: -240px;
+          float: left;
+          width: 10px;
+          padding: 20px;
+          color: #048dff;
+          border-radius: 20px;
+      }
+      .div2{
+         margin-top: -230px;
+         margin-left: -18px;
+      }
+      .div3{
+        margin-top: 20px;
+        margin-left: 150px;
+     }
+     .done{
+        margin-left: 50px;
+        width: 30px;
+        height: 30px;
+        top: 10px;
+     }
+      .imagstar{
+       margin-left: 50px;
+        width: 30px;
+        height: 30px;
+        top: 33px;
+      }
+      
+      .num-dates {
+         background-color: #048dff;
+        float: right;
+        position: relative;
+        top: 110px;
+        right: 50px;
+        z-index: 1;
+        border-radius: 33px;
+      }
+      
+      .first-week {
+        margin-bottom: 50px;
+        width: 800px;
+        text-align: center;
+        height: 200px;
+      }
+      .P1{
+          color: white;
+          margin-top: 50px;
+          font-size: 25px;
+      }
+      
+ 
+     
+      .active-day {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: #048dff;
+        position: relative;
+        top: 175px;
+        left: 600px;
+      }
+      
+      .white {
+        color: green;
+      }
+      
+      .event-indicator {
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: #2980B9;
+        position: relative;
+        top: 200px;
+        left: 990px;
+      }
+      
+  
+      .grey {
+        color: #AAAAB1;
+      }
+      
+      .calendar-left {
+        margin-top: 40px;
+        width: 300px;
+        height: 500px;
+        border-radius: 20px 0px 0px 20px;
+        background-color: #2980B9;
+        position: relative;
+        z-index: -1;
+        bottom: 500px;
+        color: white;
+      }
+      
+      .hamburger {
+      
+        position: relative;
+        top: 25px;
+        left: 25px;
+      }
+      
+    
+      .burger-line {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        border-radius: 15%;
+        margin-bottom: 3px;
+      }
+      
+      .num-date {
+        padding-top: 30px;
+        margin-top: -20px;
+        font-size: 100px;
+        width: 50%;
+        margin: 0 auto;
+        font-weight: 700;
+        
+      }
+      .day {
+     
+        padding-top: 50px;
+        padding-left: 50px;
+        width: 50%;
+        margin: 20px;
+        font-size: 30px;
+        position: relative;
+        bottom: 60px;
+      }
+      .current-events {
+        font-size: 15px;
+        position: relative;
+        margin-left: 25px;
+        bottom: 30px;
+      }
+      .posts {
+          margin-top: -20px;
+        text-decoration: underline dotted;
+      }
+   
+
+       .footer-distributed{
+        background-color: #000;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+        box-sizing: border-box;
+        width: 1500px;
+        text-align: left;
+        font: bold 16px sans-serif;
+        padding: 15px 50px;
+        margin-top: 100px;  
+        font-size: 14px;
+        color:#8f9296;
+
+   }
+  
+   .copyright {
+       
+    color:#8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    padding-left: 200px;
+    margin-left: 400px;
+    margin-right: 500px;
+    margin-top: -50px;
+    
+   }
+   .footer-icons{
+    margin-right: 10px;
+    margin-left: 1000px;
+    margin-top: -50px;
+    text-align: right;
+   }
+      
